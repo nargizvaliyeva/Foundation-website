@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "2",
-      "title": "Medical HealthSS",
+      "title": "Medical HealthSSss",
       "des": "Accusantium dignissimos voluptas rem consequatur ratione illo sit quasi.",
       "imgUrl": "https://preview.colorlib.com/theme/foundation/images/person_1.jpg"
     },
@@ -15,18 +15,6 @@
     {
       "id": "4",
       "title": "Help & Love",
-      "des": "Accusantium dignissimos voluptas rem consequatur ratione illo sit quasi.",
-      "imgUrl": "https://preview.colorlib.com/theme/foundation/images/person_1.jpg"
-    },
-    {
-      "id": "5",
-      "title": "Give To The Needy",
-      "des": "Praesentium magnam pariatur quae necessitatibus eligendi voluptate ducimus.",
-      "imgUrl": "https://preview.colorlib.com/theme/foundation/images/person_1.jpg"
-    },
-    {
-      "id": "6",
-      "title": "Volunteer",
       "des": "Accusantium dignissimos voluptas rem consequatur ratione illo sit quasi.",
       "imgUrl": "https://preview.colorlib.com/theme/foundation/images/person_1.jpg"
     }

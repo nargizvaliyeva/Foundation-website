@@ -14,11 +14,13 @@ function drawCard(data) {
   card.innerHTML = "";
   data.forEach(
     (element) =>
-      (card.innerHTML += ` <div class="banner">
-    <img src="${element.imgUrl}" alt="">
-    <h3>${element.title}</h3>
-    <p>${element.des}</p>
-    <a href="./details.html?id=${element.id}">details</a>
-</div>`)
+      (card.innerHTML += `
+      <div class="banner">
+          <div><img src="${element.imgUrl}" alt=""> </div>
+          <h4>${element.title}</h4>
+          <h5>${element.des}</h5>
+          <a href="./details.html?id=${element.id}">details</a>
+      </div>`)
   );
 }
+

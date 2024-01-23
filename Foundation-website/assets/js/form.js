@@ -23,8 +23,8 @@ function drawTable(data) {
         <td><img class="picture" src="${element.imgUrl}" alt=""></td>
         <td>${element.title}</td>
         <td>${element.des}</td>
-        <td><button onclick=deleteProducts("${element.id}",this)>Delete</button></td>
-        <td><button onclick=editProducts("${element.id}")>Edit</button></td>`;
+        <td><button class="delete" onclick=deleteProducts("${element.id}",this)>Delete</button></td>
+        <td><button class="edit" onclick=editProducts("${element.id}")>Edit</button></td>`;
     tbody.append(trElement);
   });
 }
@@ -38,14 +38,14 @@ search.addEventListener("input", function (event) {
   drawTable(filtered);
 });
 
-// btnAsd.addEventListener("click", function () {
-//   let sorted = arr.sort((a, b) => (a.title > b.title ? -1 : 1));
-//   drawTable(sorted);
-// });
-// btnDes.addEventListener("click", function () {
-//   let sorted = arr.sort((a, b) => (b.title > a.title ? -1 : 1));
-//   drawTable(sorted);
-// });
+btnAsd.addEventListener("click", function () {
+  let sorted = arr.sort((a, b) => (a.title > b.title ? -1 : 1));
+  drawTable(sorted);
+});
+btnDes.addEventListener("click", function () {
+  let sorted = arr.sort((a, b) => (b.title > a.title ? -1 : 1));
+  drawTable(sorted);
+});
 
 async function deleteProducts(id, btn) {
   if (confirm("are u sure delete?")) {
